@@ -1,11 +1,6 @@
-// http://manhua.ali213.net/comic/6873/207955.html
-
 function checkBlockList(url,blacklist) {
     for(var idx=0; idx<blacklist.length; idx++){
         var enc=blacklist[idx];
-        enc=enc.replace(/\//g,'\\/');
-        enc=enc.replace(/\./g,'\\.');
-        enc=enc.replace(/\*/g,'\\w+');
         var regex=new RegExp(enc,'i');
         if(regex.test(url)){
             return true;
@@ -36,6 +31,7 @@ function removeBlockUrl(blacklist){
             if(checkBlockList(src,blacklist)){
                 console.log(src);
                 element.src='';
+                element.remove();
             }
         }
     }

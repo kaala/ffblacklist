@@ -8,7 +8,7 @@
     "icon": "icon48.png",
     "icon64": "icon64.png",
     "license": "MIT",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "preferences":[
         {
             "type": "file",
