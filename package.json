@@ -9,17 +9,14 @@
     "icon64": "icon64.png",
     "license": "MIT",
     "version": "1.1.5",
-    "preferences":[
-        {
-            "type": "file",
-            "name": "blacklist",
-            "title": "BlackList File"
-        },
-        {
-            "type": "control",
-            "label": "Reload",
-            "name": "reload",
-            "title": "Reload BlackList"
-        }
-    ]
+    "preferences": [{
+        "type": "file",
+        "name": "blacklist",
+        "title": "BlackList File"
+    }, {
+        "type": "control",
+        "name": "reload",
+        "title": "Reload BlackList",
+        "label": "Reload"
+    }]
 }
