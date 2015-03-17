@@ -1,0 +1,2 @@
+# ffblacklist
+firefox blacklist addon
